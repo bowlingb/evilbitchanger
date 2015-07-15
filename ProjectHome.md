@@ -1,0 +1,1 @@
+The intent of this tool is to simplify testing when it involves the evil bit. It will read packets from a .pcap file, set the IP reserved bit on each IP datagram, recalculates the header checksum, and forward the packet in a new Layer 2 frame. This tool can also capture live traffic and forward it in the same manner.
